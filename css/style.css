@@ -22,10 +22,11 @@ body {
 
 h1, h2, h3, h4, li {
     font-family: 'Cabin', Arial, sans-serif;
+    font-weight: normal;
 }
 
 p {
-    font-family: Georgia, serif;
+    font-family: 'PT Serif', Georgia, serif;
 }
     
 h1, header li {
@@ -154,11 +155,16 @@ h1.underline {
     font-weight: 400;
     /*padding-bottom: 7px;*/
     padding-right: 1px;
-    border-bottom: solid 3px;
+    border-bottom: solid 3px black;
     margin:0;
     letter-spacing: normal;
     line-height: 55px;
 }
+
+/*span.no-underline {
+    padding-bottom: 8px;
+    border-bottom: solid 3px white;
+}*/
 
 a.underline {
     padding-bottom: 7px;
@@ -199,10 +205,19 @@ a.underline {
     padding: 40px 60px 0px 60px;
 }
 
+/*#design .content-right {
+    float: left;
+    padding-bottom: 40px;
+}*/
+
 .content img {
     width: 60%;
     opacity: 0.9;
 }
+
+/*#design img {
+    width: 100%;
+}*/
 
 .content img:hover {
     /*opacity: 1;*/
@@ -285,7 +300,36 @@ h4 a {
 }
 
 
+/*-----------------------------------------design*/
+    
+.sub-header {
+    display: block;
+    background: #0370E9;
+    padding: 25px 0 25px 50px;
+}
 
+.sub-header h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+
+}
+
+.next-links {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.next-links a {
+    padding: 0 30px;
+    font-family: 'Cabin', Helvetica, sans-serif;
+    font-size: 19px;
+    color:#0370E9;
+}
+
+.photo p {
+    text-align: center;
+}
 
 /*-----------------------------------------blog*/
     
@@ -299,7 +343,7 @@ h4 a {
 }
 
 #blog h1 {
-    font-family: Georgia;
+    font-family: 'PT Serif', Georgia;
     letter-spacing: normal;
     font-style: italic;
     position: absolute;
@@ -326,7 +370,7 @@ h4 a {
 .about a {
     text-decoration: underline;
     font-size: 19px;
-    font-family: Georgia, serif;
+    font-family: 'PT Serif', Georgia, serif;
 
 }
 
@@ -374,11 +418,11 @@ img.banner-img {
 }
 
 
-h1.photo-page {
+h1.photo-page, h1.design-page {
     display: inline-block;
     font-size: 2em;
     font-weight: 400;
-    margin: 40px 0 20px 50px;
+    margin-top: 60px;
     padding-bottom: 7px;
     padding-right: 1px;
     border-bottom: solid 3px;
@@ -386,6 +430,20 @@ h1.photo-page {
     bottom:0;
 
 }
+
+h1.photo-page {
+    margin-left: 50px;
+}
+
+.center-heading {
+    text-align: center;
+}
+
+
+/*h1.design-page {
+    text-align: center;
+    margin: 40px 0;
+}*/
 /*
 #photo {
     background: #000000;
@@ -432,7 +490,7 @@ h1.photo-page {
 .photo img {
     display: block;
 /*    height: 83%;*/
-    margin: 10% auto 0 auto;
+    margin: 5% auto 10% auto;
     max-height: 85%;
     height: auto;
     max-width: 100%;
@@ -450,7 +508,7 @@ img.display-none {
 
 
 .blank-space {
-    height: 100px;
+    height: 140px;
 }
 
 footer {
@@ -501,7 +559,7 @@ footer a {
 
 /*-----------------------------------------media*/
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
     .content-right {
         position: relative;
         display: block;
@@ -532,6 +590,10 @@ footer a {
 
     nav.bottom {
         display: none;
+    }
+
+    #blog h1 {
+        font-size: 3em;
     }
 
 /*    .photo img {
