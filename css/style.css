@@ -331,6 +331,24 @@ h4 a {
     text-align: center;
 }
 
+.text {
+    margin: 0 auto;
+    width: 480px;
+}
+
+.text p {
+    text-align: left;
+}
+
+.text h2 {
+    /*letter-spacing: 1.7px;*/
+    margin: 15px 0 0 0;
+}
+
+.text-top {
+    margin-top: 60px;
+}
+
 /*-----------------------------------------blog*/
     
 #blog {
@@ -595,12 +613,5 @@ footer a {
     #blog h1 {
         font-size: 3em;
     }
-
-/*    .photo img {
-        max-height: 80%;
-        height: auto;
-        max-width: 100%;
-    }
-*/
 }
 
