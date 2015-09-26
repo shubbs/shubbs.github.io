@@ -370,6 +370,7 @@ h4 a {
     color: #FFC600;
     font-size: 5em;
     font-weight: normal;
+    border-bottom: 6px solid;
 }
 
 
@@ -572,6 +573,49 @@ footer a:hover {
 footer a {
     text-decoration: underline;
     /*padding: 0 21px;*/
+}
+/*-----------------------------------------blogpost-sept25*/
+
+#sept25-post h1 {
+    letter-spacing: normal;
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    /*text-transform: capitalize;*/
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+#sept25-post h2, #sept25-post h3 {
+    font-family: 'PT Serif', Georgia, serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: italic;
+}
+
+#sept25-post h3 {
+    margin-top:3px;
+}
+
+#sept25-post p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#sept25-post {
+    margin-bottom: -4px;
+}
+
+.post-text {
+    width: 480px;
+    margin: 0 auto 70px auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+#sept25-post audio, #sept25-post video {
+    width: 100%;
 }
 
 
