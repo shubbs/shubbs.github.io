@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+}
+
+.grey {
+    background: #101211;
+}
+
+.red {
+    background: #DF5C4B;
+}
+
+.green {
+    background: #38A655;
+}
+
+.light-green {
+    background: #97CD45;
+}
+
+.column, .columns {
+    padding:50px;
+}
+
+.title {
+    text-align: center;
+}
