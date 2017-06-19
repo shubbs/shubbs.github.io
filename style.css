@@ -1,15 +1,16 @@
 body {
     text-align: center;
-    margin-bottom: 100px;
 }
 
 a {
   display: block;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 100px;
 }
 
 img {
