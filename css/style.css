@@ -1,6 +1,9 @@
 * {
   font-family: 'Chaparral Pro', Georgia, serif; }
 
+p {
+  margin: 0.9em auto; }
+
 .caption {
   font-size: 0.8em;
   line-height: 1em;
@@ -267,7 +270,8 @@ header h1 {
   text-align: center; }
   @media (max-width: 960px) {
     .flag-wrapper {
-      text-align: center; } }
+      text-align: center;
+      width: 100%; } }
   .flag-wrapper .flag {
     position: relative;
     display: inline-block;
@@ -278,6 +282,12 @@ header h1 {
     @media (max-width: 960px) {
       .flag-wrapper .flag {
         z-index: 15; } }
+    @media (max-width: 600px) {
+      .flag-wrapper .flag {
+        z-index: 15;
+        width: 98%;
+        margin: auto;
+        padding: 15px 1% 10px 1%; } }
 
 .direction-l .flag:before,
 .direction-r .flag:before {
