@@ -1,17 +1,22 @@
 * {
   font-family: 'Chaparral Pro', Georgia, serif; }
 
+.caption {
+  font-size: 0.8em;
+  line-height: 1em;
+  margin-top: 0; }
+
 .nat {
-  background: #2FFFB0; }
+  background: #FF342F; }
 
 .bc {
   background: #4097FF; }
 
 .ont {
-  background: #FF342F; }
+  background: #FFAE2F; }
 
 .ns {
-  background: #FF702F; }
+  background: #2FFFB0; }
 
 body {
   margin: 0;
@@ -24,6 +29,9 @@ body {
 
 a img:hover {
   opacity: 0.8; }
+  @media (max-width: 960px) {
+    a img:hover {
+      opacity: 1; } }
 
 header h1 {
   margin: 20% 100px;
@@ -263,8 +271,8 @@ header h1 {
   .flag-wrapper .flag {
     position: relative;
     display: inline-block;
-    width: 390px;
-    padding: 15px 5px 10px 5px;
+    width: 380px;
+    padding: 15px 10px 10px 10px;
     font-weight: 600;
     text-align: center; }
     @media (max-width: 960px) {
