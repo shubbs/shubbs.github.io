@@ -1,0 +1,302 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font: 100% "Soleil", Helvetica, sans-serif;
+  font-size: 18px;
+  background: #E6E2E1;
+  margin: 0 auto; }
+
+h1::selection, h2::selection, p::selection {
+  background: yellow; }
+
+p {
+  line-height: 24px; }
+
+a {
+  color: #065D8B; }
+  a:visited {
+    color: #065D8B; }
+  a:active {
+    color: #065D8B; }
+
+.container-home {
+  height: 100%; }
+
+.introduction {
+  background: url(../images/ROM1.jpg);
+  background-size: cover; }
+
+.overview-main {
+  background: url(../images/cassandrajowett.jpg);
+  background-size: cover; }
+
+.overview-collection {
+  background: url(../images/ROM5.jpg);
+  background-size: cover; }
+
+.home {
+  background: url(../images/gregoryroberts.jpg); }
+
+.main {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center; }
+  .main h1 {
+    display: inline-block;
+    margin: 200px 10% 0 10%;
+    width: auto;
+    text-align: center;
+    color: white;
+    padding: 5px 25px 8px 25px; }
+    @media (max-width: 540px) {
+      .main h1 {
+        margin-top: 100px; } }
+
+.nav {
+  display: flex;
+  width: 100%; }
+  .nav a {
+    display: inline-block;
+    padding: 20px; }
+    .nav a h2 {
+      font-weight: normal;
+      font-size: 16px; }
+  .nav li {
+    margin: 0; }
+  @media (max-width: 777px) {
+    .nav {
+      flex-wrap: wrap; }
+      .nav a {
+        width: 100%;
+        padding: 0 20px; } }
+
+.nav-bottom {
+  display: flex;
+  width: 100%; }
+  .nav-bottom a {
+    display: inline-block;
+    padding: 0px 20px; }
+    .nav-bottom a h2 {
+      font-weight: normal;
+      font-size: 16px; }
+  .nav-bottom li {
+    margin: 0; }
+  @media (max-width: 777px) {
+    .nav-bottom {
+      flex-wrap: wrap; }
+      .nav-bottom a {
+        width: 100%;
+        padding: 0 20px; } }
+
+.home-items li {
+  width: 100%;
+  padding: 120px 20% 120px 10%; }
+.home-items a {
+  display: block;
+  margin: 10%; }
+
+.items {
+  padding: 0;
+  margin: 0; }
+  .items ul {
+    display: block;
+    margin: 0;
+    padding: 0; }
+  .items a {
+    color: white; }
+  .items li {
+    list-style: none;
+    display: inline-block; }
+  .items a:hover {
+    opacity: 0.8; }
+  .items a:nth-child(1) {
+    background: black;
+    text-align: center; }
+  .items a:nth-child(2) {
+    background: url(../images/ROM1.jpg);
+    background-size: cover; }
+  .items a:nth-child(3) {
+    background: url(../images/cassandrajowett.jpg);
+    background-size: cover; }
+  .items a:nth-child(4) {
+    background: url(../images/ROM5.jpg);
+    background-size: cover; }
+  .items a:nth-child(5) {
+    background: url(../images/1980-80-11.jpg);
+    background-size: cover; }
+  .items a:nth-child(6) {
+    background: url(../images/bryanhughes.jpg);
+    background-size: cover; }
+
+.exhibit-main {
+  background: url(../images/1980-80-11.jpg);
+  background-size: cover; }
+
+.container-intro-questions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 40px; }
+  .container-intro-questions p {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px; }
+  .container-intro-questions .intro-question {
+    display: inline-block;
+    width: 300px;
+    padding: 30px;
+    margin: 40px 20px 0px 20px;
+    background: white; }
+    .container-intro-questions .intro-question:nth-child(1) {
+      background: white; }
+    .container-intro-questions .intro-question:nth-child(2) {
+      background: white; }
+
+.section-content {
+  background: white;
+  width: 100%;
+  padding-top: 30px; }
+  .section-content p {
+    display: block;
+    width: 640px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: "Chaparral Pro", Georgia, serif; }
+    @media (max-width: 640px) {
+      .section-content p {
+        width: 100%; } }
+
+.collection {
+  padding-bottom: 20px; }
+
+.romphotos-block {
+  background: #FAF5EE;
+  padding-bottom: 40px; }
+
+.recollects-block {
+  background: #DAD4CD;
+  padding-bottom: 40px; }
+
+.content-block {
+  width: 640px;
+  margin: auto;
+  padding: 20px 20px 20px 20px; }
+  .content-block p {
+    font-family: "Chaparral Pro", Georgia, serif;
+    font-size: 1.2em;
+    line-height: 1.5em; }
+  @media (max-width: 640px) {
+    .content-block {
+      width: 100%; } }
+
+.survey-block {
+  background: #C4BBB6;
+  padding-bottom: 40px; }
+
+.exhibit-war {
+  background: #C4BBB6;
+  padding-bottom: 40px; }
+  @media (max-width: 640px) {
+    .exhibit-war img {
+      width: 100%; } }
+
+.exhibit-egypt {
+  background: #DCD2C6; }
+  .exhibit-egypt blockquote {
+    font-style: italic; }
+  .exhibit-egypt hr {
+    position: relative;
+    right: 20px; }
+    @media (max-width: 640px) {
+      .exhibit-egypt hr {
+        width: 100%; } }
+
+.collection-content img:hover {
+  opacity: 0.8; }
+
+.collection-item img {
+  text-align: center; }
+
+.recollects-collection {
+  background: #FEFEFE; }
+
+.collection-photos {
+  display: flex;
+  width: 640px;
+  flex-wrap: wrap; }
+  @media (max-width: 640px) {
+    .collection-photos {
+      width: 100%;
+      justify-content: center; } }
+
+.collection-photos img {
+  width: 300px;
+  display: inline; }
+
+.survey-collection {
+  background: #D3D3D3;
+  padding-bottom: 0; }
+  .survey-collection img {
+    width: 280px;
+    margin: auto;
+    text-align: center; }
+  .survey-collection blockquote {
+    font-style: italic; }
+
+.footnotes-sep {
+  width: 640px;
+  color: black; }
+
+.footnotes {
+  font-size: 0.8em;
+  line-height: 0.8em;
+  padding-bottom: 20px; }
+  .footnotes li {
+    width: 50%;
+    margin: 0 auto; }
+  .footnotes p {
+    padding: 0; }
+
+.next {
+  margin: 70px 0; }
+  .next a {
+    color: black;
+    background: white;
+    display: block;
+    width: 540px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px 40px 40px 40px; }
+    @media (max-width: 540px) {
+      .next a {
+        width: 100%; } }
+  .next a:hover {
+    opacity: 0.8; }
+  .next h4 {
+    line-height: 0.5em; }
+
+footer {
+  background-color: #DCD2C6;
+  padding-bottom: 10px; }
+
+.site-nav {
+  padding: 5px 20px 0px 15px; }
+  .site-nav li {
+    list-style: none;
+    color: #1F1E1D;
+    font-size: 14px;
+    font-weight: normal; }
+
+.credits li {
+  list-style: none;
+  font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
