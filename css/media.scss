@@ -1,0 +1,158 @@
+@media (min-width: 657px) and (max-width: 846px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "sidebar"
+    "nav"
+    "content"
+    "full-width"
+    "footer"
+  }
+
+  .main-header {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .main-nav {
+    width: 80%;
+    margin: 30px auto;
+  }
+  .side {
+    text-align: center;
+  }
+  .content {
+    width: 80%;
+    margin: auto;
+  }
+  footer p {
+    display: block;
+    text-align: center;
+    margin-right: 0;
+  }
+  .main-footer {
+    text-align: center;
+  }
+  footer .bottom-nav {
+    margin: 10px 0 48px 0;
+  }
+}
+
+@media (max-width: 657px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "sidebar"
+    "nav"
+    "content"
+    "full-width"
+    "footer"
+  }
+
+  .main-header {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .selected {
+    border-bottom: none;
+  }
+
+  nav ul {
+    display: block;
+    width: 100%;
+    text-align: center;
+    li {
+      display: block;
+      margin-bottom: 30px;
+    }
+
+  }
+
+  .main-nav li {
+    &:first-child {
+      margin-right: 0;
+    }
+    &:last-child {
+      margin-left: 0;
+    }
+  }
+
+
+  .main-nav {
+    width: 90%;
+    margin: 30px auto;
+  }
+  .side {
+    text-align: center;
+  }
+  .content {
+    width: 90%;
+    margin: auto;
+  }
+
+  .landscape {
+    width: 90%;
+  }
+
+  footer p {
+    display: block;
+    text-align: center;
+    margin-right: 0;
+  }
+  .main-footer {
+    text-align: center;
+  }
+  footer .bottom-nav {
+    margin: 10px 0 48px 0;
+  }
+
+
+}
+
+// @media (min-width: 643px) and (max-width: 927px) {
+//   header h1 {
+//     text-align: center;
+//     display: block;
+//     margin: 0 auto; }
+//
+//   nav {
+//     margin: 36px 0 0 0;
+//     text-align: center;
+//     width: 100%; }
+//     nav ul {
+//       margin: 0; }
+//
+//   .sub-header-left {
+//     display: block;
+//     text-align: center;
+//     margin: 0 auto 24px auto; }
+//
+//   .sub-header-right {
+//     margin: 0 auto 36px auto;
+//     display: block;
+//     padding: 1px 24px; }
+//
+//   .visuals-grid {
+//     width: 100%;
+//     margin: 0;
+//     justify-content: center; } }
+// @media (max-width: 643px) {
+//   header {
+//     margin: 36px 0 0 0; }
+//     header h1 {
+//       text-align: center;
+//       display: block;
+//       margin: 0 auto; }
+//
+//   nav {
+//     display: block; }
+//     nav li {
+//       display: block;
+//       text-align: center;
+//       padding: 20px 0;
+//       border-top: solid 1px #FAFAF7; }
+//       nav li:last-child {
+//         border-bottom: solid 1px #FAFAF7;}
+//       }
