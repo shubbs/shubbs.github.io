@@ -19,6 +19,60 @@ body {
     margin: 0 auto;
 }
 
+// NO grid
+
+@supports not (display: grid) {
+  .main-header {
+    display: block;
+    float: left;
+  }
+  .main-nav {
+    margin-left: 50px;
+  }
+
+
+  .side {
+    clear: both;
+    width: 230px;
+    text-align: right;
+    float: left;
+    overflow: hidden;
+  }
+
+  .content {
+    float: left;
+    display: block;
+    text-align: left;
+    margin-left: 50px;
+    width: auto;
+  }
+  .landscape {
+    clear: both;
+  }
+  .border {
+    clear:both;
+    margin-top: 30px;
+  }
+  // bookshelf
+  ul.bookshelf {
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .bookshelf {
+     li {
+       margin: auto;
+       display: inline;
+     }
+     img {
+       width: 10.7%;
+     }
+  }
+}
+
+
 // grid properties
 
 .main-header {
@@ -160,7 +214,7 @@ ul.visuals {
 // sidebar
 
 .side {
-  text-align: right;
+  justify-self: end;
   img {
     width: 60px;
     margin-top: 5px;
@@ -250,6 +304,7 @@ ul.bookshelf {
   padding: 0;
   margin: 0;
 }
+
 
 .bookshelf {
   display: grid;

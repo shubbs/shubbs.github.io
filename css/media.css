@@ -12,7 +12,8 @@
     margin: 30px auto; }
 
   .side {
-    text-align: center; }
+    text-align: center;
+    justify-self: center; }
 
   .content {
     width: 80%;
@@ -58,7 +59,8 @@
     margin: 30px auto; }
 
   .side {
-    text-align: center; }
+    text-align: center;
+    justify-self: center; }
 
   .content {
     width: 90%;

@@ -9,6 +9,46 @@ body {
   background: #FAFCFB;
   margin: 0 auto; }
 
+@supports not (display: grid) {
+  .main-header {
+    display: block;
+    float: left; }
+
+  .main-nav {
+    margin-left: 50px; }
+
+  .side {
+    clear: both;
+    width: 230px;
+    text-align: right;
+    float: left;
+    overflow: hidden; }
+
+  .content {
+    float: left;
+    display: block;
+    text-align: left;
+    margin-left: 50px;
+    width: auto; }
+
+  .landscape {
+    clear: both; }
+
+  .border {
+    clear: both;
+    margin-top: 30px; }
+
+  ul.bookshelf {
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin: 0 auto; }
+
+  .bookshelf li {
+    margin: auto;
+    display: inline; }
+  .bookshelf img {
+    width: 10.7%; } }
 .main-header {
   grid-area: header; }
 
@@ -96,7 +136,7 @@ ul.visuals {
   margin-bottom: 30px; }
 
 .side {
-  text-align: right; }
+  justify-self: end; }
   .side img {
     width: 60px;
     margin-top: 5px; }
