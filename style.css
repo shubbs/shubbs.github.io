@@ -1,20 +1,7 @@
-body {
-    text-align: center;
-}
-
-a {
-  display: block;
-  font-family: Arial, sans-serif;
-}
-
-h2 {
-  font-size: 16px;
-  font-family: Arial, sans-serif;
-  margin-bottom: 100px;
-}
-
-img {
-    width: 900px;
-    max-width: 100%;
-    margin-bottom: 30px;
-}
+html { 
+    background: url(images/field.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
