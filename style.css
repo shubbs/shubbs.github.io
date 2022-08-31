@@ -1,7 +1,49 @@
 html { 
-    background: url(images/field.jpg) no-repeat center center fixed; 
+    background: url(images/field.jpg) no-repeat center center fixed;
+    background-color: #e4eae4; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+
+  * {
+    font-family:"soleil", Helvetica, Arial, sans-serif;
+  }
+
+  body {
+    position: fixed;
+    bottom: 10%;
+    left: 10%;
+  }
+
+  h1 {
+    font-size: 3.5em;
+    /* color: #012821; */
+    color: #dfe0de;
+    margin: 0 0 40px 0;
+    line-height: 1em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li { 
+    display: inline;
+    padding-right: 20px;
+    font-size: 1.5em;
+  }
+
+  a {
+    /* color: #63847e; */
+    color: #dfe0de;
+    text-decoration: none;
+    border-style: none none solid none;
+    border: 
+  }
+
+  a:hover {
+    opacity: 0.8;
   }
